@@ -1,0 +1,3 @@
+interface SpinnerProps {
+  visible: boolean;
+}
