@@ -1,13 +1,8 @@
 import React from 'react';
 import Route from '@navigation/index';
-import {AlertProvider} from '@components';
 
 const App = () => {
-  return (
-    <AlertProvider>
-      <Route />
-    </AlertProvider>
-  );
+  return <Route />;
 };
 
 export default App;
